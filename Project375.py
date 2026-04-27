@@ -23,7 +23,7 @@ sns.set_style("white")
 
 print("--- Loading & Preprocessing Data ---")
 
-file_path = "C:/Users/Pharhan/Downloads/1751886102_SAMPLE_PBCR_Mortality.dta"
+file_path = "SAMPLE_PBCR_Mortality.dta"
 df = pd.read_stata(file_path)
 
 # Rename columns
